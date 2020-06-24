@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int arr[100],i,sum=0;
+int arr[100],i,sum=0,n=10;
 
 printf("Please enter the array elements\n");
-for(i=0;i<5;i++)
+for(i=0;i<n;i++)
 {
 scanf("%d",&arr[i]);
 }
-for(i=0;i<5;i++)
+for(i=0;i<n;i++)
 {
 sum=sum+arr[i];
 }
